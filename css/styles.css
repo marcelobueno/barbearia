@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body {
+    background-color: #151416;
+    background-image: url('../img/particles.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.bg-barber {
+    background-color: hsla(0, 0%, 24%, 0.26);
+}
+
+.h-100 {
+    min-height: 85vh;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'betty';
+    src: url('../fonts/Thinking_of_Betty.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-betty {
+    font-family: betty;
+}
+
+.font-62 {
+    font-size: 62px;
+}
+
+.logo-front {
+    width: 600px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(58, 58, 58);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 24%, 0.26);
+  }
+
+  .align-text-middle {
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
